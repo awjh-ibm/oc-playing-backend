@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
     res.json({timestamp: new Date().getTime()});
 });
 
-app.listen(port, ip, () => {
+app.listen(port, () => {
     console.log(`Example app listening at http://${ip}:${port}`)
 });
